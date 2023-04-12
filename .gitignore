@@ -1,6 +1,8 @@
-tmp/app.db
+tmp/*.db
 
 node_modules
 # Keep environment variables out of version control
 .env
 .env.test
+
+dist
