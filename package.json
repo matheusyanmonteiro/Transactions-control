@@ -10,11 +10,15 @@
   "scripts": {
     "dev": "tsx watch src/server.ts",
     "knex": "node --no-warnings --loader tsx ./node_modules/.bin/knex",
-    "lint": "eslint src --ext .ts --fix"
+    "lint": "eslint src --ext .ts --fix",
+    "test": "vitest"
   },
   "devDependencies": {
     "@types/node": "^18.13.0",
+    "@types/supertest": "^2.0.12",
     "eslint": "^8.34.0",
-    "tsx": "^3.12.3"
+    "supertest": "^6.3.3",
+    "tsx": "^3.12.3",
+    "vitest": "^0.30.1"
   }
 }
